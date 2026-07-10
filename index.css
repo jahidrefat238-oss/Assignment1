@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+   
+}
+
+ .controller{
+     max-width: 1551px;
+    margin: auto;
+ }
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: #737373;;
+}
+.common_button{
+    background-color: #1D4ED8;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 5px;
+   border: none;
+   cursor: pointer;
+
+}
