@@ -6,14 +6,14 @@
 }
 
  .controller{
-     max-width: 1551px;
+     max-width: 1200px;
      margin: auto;
  }
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 1400px; */
+    width: 1100px;
 }
 nav ul{
     display: flex;
@@ -23,7 +23,7 @@ nav ul{
 }
 nav ul a{
     text-decoration: none;
-    color: #737373;;
+    color: #575757;
 }
 .common_button{
     background-color: #1D4ED8;
@@ -42,8 +42,7 @@ nav ul a{
 .banner h1{
     color: white;
     font-size: 80px;
-
-padding: 100px 10px 30px 10px ;
+     padding: 100px 10px 30px 10px ;
 }
 span{
     font-style:italic;
@@ -51,7 +50,7 @@ span{
 .banner p{
     color: white;
     font-size: 22px;
-    padding: 0 380px 300px;
+    padding: 0 200px 0 200px;
 }
 .reg_btn_inside_banner{
     width: 282px;
@@ -59,6 +58,7 @@ span{
     font-weight: bold;
     font-size: 24px;
     border-radius: 10px;
+    margin: 290px 0 40px 0;
 }
 /* .speaker{
    text-align:center ;
