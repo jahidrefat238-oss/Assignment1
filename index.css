@@ -7,7 +7,7 @@
 
  .controller{
      max-width: 1551px;
-    margin: auto;
+     margin: auto;
  }
 nav{
     display:flex;
@@ -59,4 +59,40 @@ span{
     font-weight: bold;
     font-size: 24px;
     border-radius: 10px;
+}
+/* .speaker{
+   text-align:center ;
+   
+} */
+.speaker h2{
+    margin: 50px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+}
+.speaker img{
+    width: 100%;
+}
+.speaker_boxes{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    justify-content: center;
+    gap:30px;
+   
+}
+.box1,.box2,.box3,.box4{
+    border: 2px solid rgb(195, 190, 190);
+    border-radius: 10px;
+    
+}
+.speaker h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.sector{
+    color: #2563EB;
+    font-weight: bold;
+}
+.speaker-box-text{
+    padding: 18px;
 }
