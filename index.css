@@ -64,7 +64,7 @@ span{
    text-align:center ;
    
 } */
-.speaker h2,.subscription>h2{
+.speaker h2{
     margin: 50px;
     text-align: center;
     font-size: 56px;
@@ -95,4 +95,66 @@ span{
 }
 .speaker-box-text{
     padding: 18px;
+}
+.subscription>h2{
+     margin: 150px 0 20px 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}#sub-heading{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 0 50px 0;
+    color: #575757;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
+    
+}
+.plan1,.plan2,.plan3{
+     border: 2px solid rgb(195, 190, 190);
+    border-radius: 10px;
+    padding: 40px;
+    
+
+}
+.plans ul li::marker{
+    color: #1D4ED8;
+}
+.plans ul li{
+    margin: 10px 0;
+    font-size: 14;
+    color: #333333;
+}
+.plans button{
+    display: block;
+    margin: 50px auto 0;
+    width: 300px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.plan1 button{
+    border: 2px solid #1D4ED8;
+    color: #1D4ED8;
+}
+.catagory{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888888;
+}
+.person-allowed{
+    font-size: 13px;
+    color: #888888;
+}
+.plan2{
+    background-color: #0D1B2A;
+    color: white;
+}
+.plan2 ul li{
+    color: white;
 }
