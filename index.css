@@ -158,3 +158,9 @@ span{
 .plan2 ul li{
     color: white;
 }
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: #888888;
+    margin: 25px 0;
+}
