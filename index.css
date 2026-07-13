@@ -34,7 +34,7 @@ nav ul a{
    cursor: pointer;
 }
 .banner{
-    background-image: url(./assets/banner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.237)), url(./assets/banner.jpg);
     background-size: cover;
     height: 786px;
     text-align: center;
@@ -114,6 +114,8 @@ span{
      border: 2px solid rgb(195, 190, 190);
     border-radius: 10px;
     padding: 40px;
+    box-shadow: -5px 5px 5px gray;
+   
     
 
 }
