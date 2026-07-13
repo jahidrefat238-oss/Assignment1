@@ -60,10 +60,7 @@ span{
     border-radius: 10px;
     margin: 290px 0 40px 0;
 }
-/* .speaker{
-   text-align:center ;
-   
-} */
+
 .speaker h2{
     margin: 50px;
     text-align: center;
@@ -97,7 +94,7 @@ span{
     padding: 18px;
 }
 .subscription>h2{
-     margin: 150px 0 20px 0;
+     margin: 70px 0 20px 0;
     text-align: center;
     font-size: 48px;
     font-weight: bold;
@@ -190,24 +187,54 @@ span{
      border-radius: 3px;
      border: 2.5px solid rgb(195, 190, 190);
 }
+/* sponsores */
+.greetings{
+    text-align: center;
+    margin: 50px 0 0 0 ;
+}
+.greetings p{
+    font-size: large;
+    color: #575757;
+}
+.greetings h2{
+    font-size: 38px;
+}
+.logo{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin: 15px 0;
+    padding: 0 50px;
+    
+}
+.logobox{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+  max-width: 100%;
+  max-height: 80%;
+}
 /* footer */
 .end{
-    margin: 30px 0 10px 0;
-    padding: 15px 60px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
     
 }
 footer{
     background-color: #0D1B2A;
-    margin: 0 0 35px 0;
-    align-items: center;
+    margin: 0 0 10px 0;
+    justify-content: center;
 }
-/* .footer-left{
-    display: flex;
-    gap: 10px;
-} */
 .footer-links{
     display: flex;
     gap: 25px;
@@ -221,14 +248,12 @@ footer ul li a{
 }
 .icons{
   display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 15px;
+    align-items: center;
 }
 .icons img{
      width: 45px;
      height: 45px;
-    
 }
 
 .horizontal-divider{
